@@ -1,6 +1,5 @@
 === Bootstrap Multi-language Responsive Gallery ===
 Contributors: augustinfotech
-Donate link: http://www.augustinfotech.com/
 Tags: responsive gallery, gallery, multi-language, resposive, bootstrap
 Requires at least: 3.8
 Tested up to: 4.1.1
