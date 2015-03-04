@@ -52,10 +52,14 @@ Plugin developed by August Infotech [Visit website](http://www.augustinfotech.co
 
 == Screenshots ==
 
-1. Admin Settings.
-2. Gallery page.
-3. You can add <?php do_shortcode("[gallery count="3" orderby="title" order="asc"]"); ?> or <?php echo do_shortcode("[gallery count="3" orderby="title" order="asc"]"); ?> shortcode in any template.
-4. Gallery section generated from shortcode.
+1. Two Column Gallery Page.
+2. Gallery Colorbox.
+3. Three Column Gallery Page.
+4. Four Column Gallery Page.
+5. Four Column Gallery Page.
+6. Gallery Section Generated From Shortcode.
+7. Gallery Listing In Admin Area.
+8. Admin Settings.
 
 == Changelog ==
 = 1.0 =
