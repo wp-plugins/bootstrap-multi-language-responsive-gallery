@@ -56,10 +56,9 @@ Plugin developed by August Infotech [Visit website](http://www.augustinfotech.co
 2. Gallery Colorbox.
 3. Three Column Gallery Page.
 4. Four Column Gallery Page.
-5. Four Column Gallery Page.
-6. Gallery Section Generated From Shortcode.
-7. Gallery Listing In Admin Area.
-8. Admin Settings.
+5. Gallery Section Generated From Shortcode.
+6. Gallery Listing In Admin Area.
+7. Admin Settings.
 
 == Changelog ==
 = 1.0 =
