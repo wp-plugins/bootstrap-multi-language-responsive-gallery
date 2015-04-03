@@ -29,6 +29,7 @@ function galleryShortcode( $attr, $content = null )
            $gallery_title = 'Gallery';
            
 	    $gallery_content = get_option( 'gallery_content' );
+		$gallery_content = stripslashes ( $gallery_content );
 
 	    $html = '';
 		$html .='<section class="recent_gallery clearfix">';		

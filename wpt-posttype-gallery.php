@@ -316,6 +316,7 @@ if ( ! class_exists( 'Gallery_Post_Type' ) ) :
 					 	<?php
 					 	$check_gallery_content = get_option('gallery_content');
 					 	$gallery_content = !empty($check_gallery_content) ? $check_gallery_content : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.';
+					 	$gallery_content =  stripslashes ( $gallery_content );
 					 	?>
 					 		<th><?php _e('Content :', 'wpt'); ?><br/>
 					 			<i><?php _e('(Specify the content to be displayed)','wpt'); ?></i>
