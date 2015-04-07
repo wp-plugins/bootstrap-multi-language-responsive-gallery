@@ -60,6 +60,24 @@ add_action( 'plugins_loaded','gallery_plugin_load_function' );
 /* ---------------------------------------------------------------------------
  * Required fucntions and hooks for Plugin
  * --------------------------------------------------------------------------- */
+
+if ( ! function_exists( 'ai_plugin_rate_us' ) ) : 
+function ai_plugin_rate_us( $footer_text ) {
+	global $typenow;
+
+	if ( $typenow == 'gallery' ) {
+		$rate_text = sprintf( __( 'Thank you for using Bootstrap Multi-language Responsive Gallery ! Please <a href="%1$s" target="_blank">rate us</a> on <a href="%1$s" target="_blank">WordPress.org</a> and <a href="%2$s" target="_blank">Like us</a> on <a href="%2$s" target="_blank">Facebook</a> to stay with us.', 'wpt' ),
+			'https://wordpress.org/support/view/plugin-reviews/bootstrap-multi-language-responsive-gallery?filter=5#postform',
+			'https://www.facebook.com/August.Infotech'
+		);
+
+		return str_replace( '</span>', '', $footer_text ) . ' | ' . $rate_text . '</span>';
+	} else {
+		return $footer_text;
+	}
+}
+endif; // ai_plugin_rate_us
+
  
 if ( ! function_exists( 'wpt_register_gallery_project_templates' ) ) :
 function wpt_register_gallery_project_templates( $atts ) {
